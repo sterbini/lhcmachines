@@ -1,3 +1,8 @@
+! Specify machine version
+ver_lhc_run = 0;
+ver_hllhc_optics = 1.4;
+
+
 ! Define links to optics repository
 system, "ln -fns /afs/cern.ch/eng/lhc/optics/V6.503 db5";
 system, "ln -fns /afs/cern.ch/eng/lhc/optics/HLLHCV1.4 slhc";
