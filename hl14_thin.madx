@@ -34,6 +34,3 @@ if (mylhcbeam<3){
   seqedit, sequence=lhcb1; flatten; cycle, start=IP3; flatten; endedit;
 };
 seqedit, sequence=lhcb2; flatten; cycle, start=IP3; flatten; endedit;
-
-! Load optics strengths
-call, file="slhc/round/opt_round_150_1500_thin.madx";
